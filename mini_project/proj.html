@@ -1,0 +1,58 @@
+﻿
+<!DOCTYPE html>
+<html>
+<head>
+
+    <style>
+      
+    </style>
+    <link rel="stylesheet" href="./style.css" />
+    <script type="text/javascript" src="../mini_project/proj.min.js"></script>
+
+</head>
+<body>
+    <div class="container">
+        <form name="firstform" id="firstform" method="post">
+            <h3>Details Form</h3>
+            <hr /><br />
+            <p id="p1">
+                <label>Name:</label><input type="text" name="fname" id="fname" placeholder="Enter your name" value="" />
+            </p>
+            <p id="p2">
+                <label>Mob. No.:</label><input type="number" name="mno" id="mno" placeholder="Enter your 10 digits no." value="" />
+            </p>
+            <p id="p3">
+                <label>Email</label><input type="email" name="email" id="email" placeholder="Enter your email" value="" />
+            </p>
+            <br />
+            <input type="button" value="SUBMIT" onclick="writeToPage();"/>
+        </form>
+        <div class="drops">
+            <div class="drop drop-1"> </div>
+            <div class="drop drop-2"> </div>
+            <div class="drop drop-3"> </div>
+            <div class="drop drop-4"> </div>
+            <div class="drop drop-5"> </div>
+
+        </div>
+
+    </div>
+    <br />
+    <div id="pdada">
+        <table border="1">
+            <tr>
+                <th>NAME</td>
+                <th>EMAIL</th>
+                <th>MOBILE</td>
+            </tr>
+            <tr>
+                <td id="username"></td>
+                <td id="pemail"></td>
+                <td id="mobi"></td>
+            </tr>
+        </table>
+    </div>
+    
+
+</body>
+</html>
